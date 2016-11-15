@@ -8,7 +8,7 @@ while True:
 	if m < 1:
 		print ("You're either very close or very far")
 	else:	
-		print ("Your current chances of guessing it right is 1/%s") % m
+		print ("Your current chances of guessing it right are 1/%s") % m
 	if g > 0:
 		print ("Number of guesses: %s") %g	
 	n = input("Type a number from 0 to 100: ")
